@@ -1,0 +1,126 @@
+.hidden {
+    display: none;
+}
+/* Change font family and size */
+body {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 30px;
+  }
+
+  /* Apply bold style to headings */
+#clock {
+    font-size: 85px;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    color:darkolivegreen;
+  }
+
+h1{
+    font-size: 50px;
+    display:ruby-text;
+    align-items: flex-start;
+}
+input[type="text"] {
+    width: 300px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+  }
+
+  .container {
+    position: relative;
+    text-align: center; /* To center the elements horizontally */
+    height: 50vh; /* Adjust the height as needed */
+  }
+  
+#todo-form {
+    position: absolute;
+    top: 40%; /* Position the form below the clock element */
+    left: 50%; /* Center the form horizontally */
+    transform: translateX(-50%); /* Center the form horizontally */
+}
+#todo-form input[type="text"]{
+    width: 300px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    text-align: center;
+}
+
+#todo-list{
+    position: absolute;
+    top: 45%; /* Position the form below the clock element */
+    left: 50%; /* Center the form horizontally */
+    transform: translateX(-50%); /* Center the form horizontally */
+}
+#login-form{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translateX(-50%); /* Center the form horizontally */
+}
+
+#login-form input[type="text"]{
+    width: 150px; /* Adjust the width as needed */
+    height: 25px; /* Adjust the height as needed */
+    text-align: center;
+}
+
+#greeting{
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translateX(-50%); /* Center the form horizontally */
+    font-size: 70px;
+    display:ruby-text;
+    align-items: flex-start;
+    font-style: italic;
+
+}
+
+#quote {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px; /* Adjust the desired width of the quote box */
+    height: 150px; /* Adjust the desired height of the quote box */
+    background-color: rgba(135, 206, 235, 0.7); /* Adjust the desired background color of the weather box */
+    border: 0px solid #ccc; /* Adjust the desired border style */
+    padding: 10px; /* Adjust the desired padding */
+  }
+  
+  #quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .quote-text-style {
+    font-size: 18px; /* Adjust the desired font size for the quote */
+    font-weight: bold; /* Apply desired font weight for the quote */
+    margin-bottom: 10px; /* Adjust the desired spacing between quote and author */
+  }
+  
+  .quote-author-style {
+    font-size: 14px; /* Adjust the desired font size for the author */
+  }
+  
+
+  #weather {
+    position: fixed;
+    top: 20px !important;
+    left: 20px !important;
+    width: 300px; /* Adjust the desired width of the weather box */
+    height: 150px; /* Adjust the desired height of the weather box */
+    border: 0; /* Remove the border */
+    padding: 10px; /* Adjust the desired padding */
+  }
+  
+  #weather-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  
